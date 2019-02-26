@@ -1,0 +1,51 @@
+#keyboard {
+    fill: red;
+    stroke: red;
+    stroke-width: 1;
+    background-color: red;
+}
+
+.white_key {
+    fill: rgba(255, 255, 255, 0.5);
+    fill: white;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1;
+}
+
+.black_key {
+    fill: black;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1;
+}
+
+.g {
+    fill: red;
+}
+
+.gs {
+    fill: gold;
+}
+
+/* .a {
+    fill: orange;
+}
+
+.b {
+    fill: yellow
+}
+
+.c {
+    fill: green
+}
+
+.d {
+    fill: blue
+}
+
+.e {
+    fill: indigo
+}
+
+.f {
+    fill: violet
+} */

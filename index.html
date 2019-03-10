@@ -47,24 +47,73 @@
     <rect y="-1" x="800" width="20" height="140" class="black_key cs"></rect>
     <rect y="-1" x="845" width="20" height="140" class="black_key ds"></rect>
   </svg>
-  <div id="notes"></div>
-  <div>
-    <pre id="x"></pre>
+  <div> <label>Notes</label>
+    <div id="notes"> </div>
+  </div>
+  <div id="keys">
+    <label>Key</label>
+    <select id="key">
+      <option value="0">G</option>
+      <option value="1">G#</option>
+      <option value="2">A</option>
+      <option value="3">A#</option>
+      <option value="4">B</option>
+      <option value="5">C</option>
+      <option value="6">C#</option>
+      <option value="7">D</option>
+      <option value="8">D#</option>
+      <option value="9">E</option>
+      <option value="10">F</option>
+      <option value="11">F#</option>
+    </select>
+  </div>
+  <div id="intervals">
+    <label>Intervals</label>
+    <label for="interval_0">Root</label><input type="checkbox" class="intervals" id="interval_0" value="0">
+    <label for="interval_1">Min2</label><input type="checkbox" class="intervals" id="interval_1" value="1">
+    <label for="interval_2">Maj2</label><input type="checkbox" class="intervals" id="interval_2" value="2">
+    <label for="interval_3">Min3</label><input type="checkbox" class="intervals" id="interval_3" value="3">
+    <label for="interval_4">Maj3</label><input type="checkbox" class="intervals" id="interval_4" value="4">
+    <label for="interval_5">4</label><input type="checkbox" class="intervals" id="interval_5" value="5">
+    <label for="interval_6">Flat5</label><input type="checkbox" class="intervals" id="interval_6" value="6">
+    <label for="interval_7">5</label><input type="checkbox" class="intervals" id="interval_7" value="7">
+    <label for="interval_8">Min6</label><input type="checkbox" class="intervals" id="interval_8" value="8">
+    <label for="interval_9">Maj6</label><input type="checkbox" class="intervals" id="interval_9" value="9">
+    <label for="interval_10">Min7</label><input type="checkbox" class="intervals" id="interval_10" value="10">
+    <label for="interval_11">Maj7</label><input type="checkbox" class="intervals" id="interval_11" value="11">
   </div>
 
+
+  <!--
+  <div id="strings">
+      <label> Hide Strings </label><input type="checkbox" class="strings" id="string_1" value="1">
+<label for="string_1">1</label><input type="checkbox" class="strings" id="string_2" value="2">
+<label for="string_2">2</label><input type="checkbox" class="strings" id="string_3" value="3">
+<label for="string_3">3</label><input type="checkbox" class="strings" id="string_4" value="4">
+<label for="string_4">4</label><input type="checkbox" class="strings" id="string_5" value="5">
+<label for="string_5">5</label><input type="checkbox" class="strings" id="string_6" value="6">
+<label for="string_6">6</label>
+ 
+    </div>
+-->
+
+
+  <!--
+
+
+
   <div>
-    <label>Key</label>
-    <select id="key"></select>
-  </div>
-  <div>
-    <label>Scale</label> <select id="scale"></select>
+    <label>Scale</label>
+    <select id="scale"></select>
   </div>
   <div>
     <label>Tuning</label>
+
     <select id="tuning"></select>
   </div>
   <div>
     <label>Top Limit</label>
+
     <select id="top">
       <option value="">None</option>
       <option value="0">Nut</option>
@@ -93,6 +142,7 @@
   </div>
   <div>
     <label>Bottom Limit</label>
+
     <select id="bottom">
       <option value="">None</option>
       <option value="1">Fret 1</option>
@@ -118,6 +168,9 @@
         <option value="20">Fret 20</option>
     </select>
   </div>
+
+-->
+
   <script src="./pianr.js"></script>
 </body>
 

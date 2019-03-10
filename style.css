@@ -1,3 +1,22 @@
+div label:first-child {
+    display: block;
+    font-weight: bold;
+}
+
+#notes span {
+    color: white;
+    text-shadow: 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+    display: inline-block;
+    padding: 0.4vw;
+    margin: 0.2vw;
+    width: 6vw;
+    height: 5vw;
+    font-size: 4vw;
+    line-height: 5vw;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #keyboard {
     fill: gray;
     stroke: gray;
@@ -27,85 +46,62 @@
 
 .note_0 {
     fill: rgb(250, 250, 000);
+    background-color: rgb(250, 250, 000);
 }
 
 .note_1 {
     fill: rgb(250, 200, 000);
+    background-color: rgb(250, 200, 000);
 }
 
 .note_2 {
     fill: rgb(250, 150, 000);
+    background-color: rgb(250, 150, 000);
 }
 
 .note_3 {
     fill: rgb(250, 100, 000);
+    background-color: rgb(250, 100, 000);
 }
 
 .note_4 {
     fill: rgb(250, 000, 000);
+    background-color: rgb(250, 000, 000);
 }
 
 .note_5 {
     fill: rgb(200, 025, 075);
+    background-color: rgb(200, 025, 075);
 }
 
 .note_6 {
     fill: rgb(175, 050, 125);
+    background-color: rgb(175, 050, 125);
 }
 
 .note_7 {
     fill: rgb(150, 050, 200);
+    background-color: rgb(150, 050, 200);
 }
 
 .note_8 {
     fill: rgb(100, 050, 200);
+    background-color: rgb(100, 050, 200);
 }
 
 .note_9 {
     fill: rgb(050, 150, 200);
+    background-color: rgb(050, 150, 200);
 }
 
 .note_10 {
     fill: rgb(000, 250, 175);
+    background-color: rgb(000, 250, 175);
 }
 
 .note_11 {
     fill: rgb(100, 250, 100);
+    background-color: rgb(100, 250, 100);
 }
 
-.note_12 {
-    fill: rgb(100, 020, 250);
-}
 
-/*
-.g {
-    fill: red;
-}
-
-.gs {
-    fill: gold;
-}
-
- .a {
-    fill: orange;
-}
-
-.b {
-    fill: yellow
-}
-
-.c {
-    fill: green
-}
-
-.d {
-    fill: blue
-}
-
-.e {
-    fill: indigo
-}
-
-.f {
-    fill: violet
-} */
